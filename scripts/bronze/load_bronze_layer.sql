@@ -16,7 +16,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.ball_by_ball;
 		BULK INSERT bronze.ball_by_ball
-		FROM 'C:\Users\itadmin\Desktop\ipl_data_warehouse\Ball_By_Ball.csv'
+		FROM 'C:\ipl_datawarehouse\Ball_By_Ball.csv'
 		WITH 
 		(
 		FIRSTROW = 2,
@@ -26,7 +26,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.match;
 		BULK INSERT bronze.match
-		FROM 'C:\Users\itadmin\Desktop\ipl_data_warehouse\Match.csv'
+		FROM 'C:\ipl_datawarehouse\Match.csv'
 		WITH 
 		(
 		FIRSTROW = 2,
@@ -36,7 +36,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.player;
 		BULK INSERT bronze.player
-		FROM 'C:\Users\itadmin\Desktop\ipl_data_warehouse\Player.csv'
+		FROM 'C:\ipl_datawarehouse\Player.csv'
 		WITH 
 		(
 		FIRSTROW = 2,
@@ -46,7 +46,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.team;
 		BULK INSERT bronze.team 
-		FROM 'C:\Users\itadmin\Desktop\ipl_data_warehouse\Team.csv'
+		FROM 'C:\ipl_datawarehouse\Team.csv'
 		WITH 
 		(
 		FIRSTROW = 2,
@@ -56,7 +56,7 @@ BEGIN
 
 		TRUNCATE TABLE bronze.player_match;
 		BULK INSERT bronze.player_match
-		FROM 'C:\Users\itadmin\Desktop\ipl_data_warehouse\Player_match.csv'
+		FROM 'C:\ipl_datawarehouse\Player_match.csv'
 		WITH 
 		(
 		FIRSTROW = 2,
