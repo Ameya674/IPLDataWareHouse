@@ -21,7 +21,8 @@ BEGIN
 		(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',',
-		TABLOCK
+		TABLOCK,
+		KEEPNULLS
 		)
 
 		TRUNCATE TABLE bronze.match;
@@ -31,7 +32,8 @@ BEGIN
 		(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',',
-		TABLOCK
+		TABLOCK,
+		KEEPNULLS
 		);
 
 		TRUNCATE TABLE bronze.player;
@@ -41,7 +43,8 @@ BEGIN
 		(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',',
-		TABLOCK
+		TABLOCK,
+		KEEPNULLS
 		);
 
 		TRUNCATE TABLE bronze.team;
@@ -51,7 +54,8 @@ BEGIN
 		(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',',
-		TABLOCK
+		TABLOCK,
+		KEEPNULLS
 		);
 
 		TRUNCATE TABLE bronze.player_match;
@@ -61,7 +65,8 @@ BEGIN
 		(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',',
-		TABLOCK
+		TABLOCK,
+		KEEPNULLS
 		);
 
 	END TRY
