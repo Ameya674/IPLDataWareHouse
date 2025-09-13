@@ -98,7 +98,7 @@ country_name NVARCHAR(50)
 );
 GO
 
-CREATE TABLE player_match (
+CREATE TABLE bronze.player_match (
     player_match_sk      INT,
     player_match_key     INT,
     match_id             INT,
